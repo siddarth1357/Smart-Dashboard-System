@@ -1,0 +1,487 @@
+.team-collaboration {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.collaboration-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-left h2 {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.header-left p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.header-stats {
+  display: flex;
+  gap: 30px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: #4361ee;
+}
+
+.stat-label {
+  display: block;
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.collaboration-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.team-card,
+.activity-card,
+.tasks-card,
+.chat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.online-count {
+  background: #4caf50;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.view-all-btn,
+.add-task-btn {
+  background: #4361ee;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.view-all-btn:hover,
+.add-task-btn:hover {
+  background: #3a0ca3;
+}
+
+/* Team Members */
+.team-members {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.team-member:hover {
+  border-color: #4361ee;
+  box-shadow: 0 2px 8px rgba(67, 97, 238, 0.1);
+}
+
+.member-avatar {
+  position: relative;
+}
+
+.avatar {
+  font-size: 20px;
+}
+
+.status-indicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.member-info {
+  flex: 1;
+}
+
+.member-name {
+  font-weight: 600;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.you-badge {
+  background: #4361ee;
+  color: white;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.member-role {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.member-task {
+  font-size: 11px;
+  color: #999;
+}
+
+.member-status {
+  text-align: right;
+}
+
+.last-active {
+  font-size: 11px;
+  color: #666;
+}
+
+/* Activity List */
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.activity-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.activity-item:hover {
+  background: #f8f9fa;
+}
+
+.activity-icon {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.activity-content {
+  flex: 1;
+}
+
+.activity-text {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+.activity-user {
+  font-weight: 600;
+  color: #333;
+}
+
+.activity-action {
+  color: #666;
+}
+
+.activity-target {
+  color: #4361ee;
+  font-weight: 500;
+}
+
+.activity-time {
+  font-size: 11px;
+  color: #999;
+}
+
+/* Tasks List */
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-item {
+  padding: 15px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.task-item:hover {
+  border-color: #4361ee;
+  box-shadow: 0 2px 8px rgba(67, 97, 238, 0.1);
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.task-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+.priority-badge {
+  color: white;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.task-progress {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #4361ee;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: #666;
+  font-weight: 600;
+  min-width: 35px;
+}
+
+.task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-assignee {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #666;
+}
+
+.assignee-avatar {
+  font-size: 14px;
+}
+
+.task-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 11px;
+  color: #999;
+}
+
+/* Team Chat */
+.chat-indicators {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.typing-indicator {
+  color: #666;
+  font-style: italic;
+}
+
+.unread-count {
+  background: #e63946;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.chat-messages {
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 15px;
+  margin-bottom: 15px;
+  padding-right: 10px;
+}
+
+.message {
+  display: flex;
+  gap: 10px;
+  max-width: 85%;
+}
+
+.own-message {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.other-message {
+  align-self: flex-start;
+}
+
+.message-avatar {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.message-content {
+  background: #f8f9fa;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border-bottom-left-radius: 4px;
+}
+
+.own-message .message-content {
+  background: #4361ee;
+  color: white;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 4px;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.message-user {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.own-message .message-user {
+  color: rgba(255,255,255,0.9);
+}
+
+.message-time {
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.message-text {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.chat-input-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #e1e5e9;
+  border-radius: 20px;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.chat-input:focus {
+  border-color: #4361ee;
+}
+
+.send-button {
+  background: #4361ee;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.send-button:hover:not(:disabled) {
+  background: #3a0ca3;
+}
+
+.send-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .collaboration-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .collaboration-header {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .header-stats {
+    gap: 20px;
+  }
+}
