@@ -13,25 +13,20 @@ A responsive, feature-rich admin dashboard built with modern frontend technologi
 
 ### 📊 Dashboard Views
 
-![dashboard](./screenshots/dashboard.png)  
+[![dashboard](./screenshots/dashboard.png)](https://smart-dashboard-system.netlify.app)  
 *Main dashboard with real-time metrics and charts*
 
-![dashboard-darkmode](./screenshots/dashboard-darkmode.png)  
+[![dashboard-darkmode](./screenshots/dashboard-darkmode.png)](https://smart-dashboard-system.netlify.app)  
 *Dark theme with professional styling*
 
 ---
 
-### 📱 Mobile Experience
+### 📱 user Experience
 
-![Product-view](./screenshots/product-view.png)  
+[![Product-view](./screenshots/product-view.png)](https://smart-dashboard-system.netlify.app)  
 *Fully responsive design on mobile devices*
 
 ---
-
-### 🎥 Feature Demonstration
-
-[Watch 2-minute demo video](./screenshots/demo.mp4)  
-*Showing navigation, voice commands, and responsive design*
 
 ---
 
