@@ -1,20 +1,57 @@
+# 🚀 Smart Dashboard System
+
+A responsive, feature-rich admin dashboard built with modern frontend technologies. Designed for real-time analytics, intuitive navigation, and seamless user experience across devices.
+
+---
+
 ## 📸 Screenshots & Demo
 
-### 🌐 Live Application
-**Live Demo**: [https://smart-dashboard-system.netlify.app/](https://smart-dashboard-system.netlify.app/)
+### 🌐 Live Application  
+**Live Demo**: [https://smart-dashboard-system.netlify.app](https://smart-dashboard-system.netlify.app)
 
-### Dashboard Views
-![Dashboard Light Mode](<img width="1920" height="1020" alt="dashboard" src="https://github.com/user-attachments/assets/59af8a33-e28e-4dee-a27f-0d8adf599977" />
-)
+---
+
+### 📊 Dashboard Views
+
+![dashboard](./screenshots/dashboard.png)  
 *Main dashboard with real-time metrics and charts*
 
-![Dashboard Dark Mode](./screenshots/dashboard-dark.png)
+![dashboard-darkmode](./screenshots/dashboard-darkmode.png)  
 *Dark theme with professional styling*
 
-### Mobile Experience
-![Mobile View](./screenshots/mobile-view.png)
+---
+
+### 📱 Mobile Experience
+
+![Product-view](./screenshots/product-view.png)  
 *Fully responsive design on mobile devices*
 
+---
+
 ### 🎥 Feature Demonstration
-[Watch 2-minute demo video](./screenshots/demo.mp4)
+
+[Watch 2-minute demo video](./screenshots/demo.mp4)  
 *Showing navigation, voice commands, and responsive design*
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Chart.js, CSS Modules
+- **Routing**: React Router
+- **Deployment**: Netlify
+- **Version Control**: Git & GitHub
+
+---
+
+## 📦 Features
+
+- Real-time charts and analytics
+- Dark/light theme toggle
+- Voice command navigation
+- Mobile-first responsive design
+- Modular component architecture
+
+---
+
+## 📁 Project Structure
