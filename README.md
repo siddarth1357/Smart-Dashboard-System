@@ -3,26 +3,18 @@
 ### 🌐 Live Application
 **Live Demo**: [https://smart-dashboard-system.netlify.app/](https://smart-dashboard-system.netlify.app/)
 
-### Visual Overview
+### Dashboard Views
+![Dashboard Light Mode](<img width="1920" height="1020" alt="dashboard" src="https://github.com/user-attachments/assets/59af8a33-e28e-4dee-a27f-0d8adf599977" />
+)
+*Main dashboard with real-time metrics and charts*
 
-#### 🎨 Dashboard Interface
-- **Light Theme**: Clean, professional interface with real-time metrics and interactive charts
-- **Dark Theme**: Dark blue theme with perfect contrast and reduced eye strain
-- **Real-time Analytics**: Live data updates with animated counters and charts
+![Dashboard Dark Mode](./screenshots/dashboard-dark.png)
+*Dark theme with professional styling*
 
-#### 📱 Mobile Experience  
-- **Responsive Design**: Seamlessly adapts from desktop to mobile
-- **Mobile Navigation**: Collapsible sidebar and bottom navigation
-- **Touch-Optimized**: Large touch targets and smooth interactions
+### Mobile Experience
+![Mobile View](./screenshots/mobile-view.png)
+*Fully responsive design on mobile devices*
 
-#### ⚡ Key Features
-- **User Management**: Comprehensive user table with search and filters
-- **Product Catalog**: Product management with inventory tracking
-- **Settings Panel**: Theme customization and preference settings
-- **AI Integration**: Voice commands and chatbot assistance
-
-#### 🚀 Advanced Capabilities
-- **Voice Commands**: Hands-free navigation with visual feedback
-- **PWA Features**: Install as native app functionality
-- **Real-time Updates**: Live data simulation with status indicators
-- **Professional Animations**: Smooth hover effects and transitions
+### 🎥 Feature Demonstration
+[Watch 2-minute demo video](./screenshots/demo.mp4)
+*Showing navigation, voice commands, and responsive design*
