@@ -28,7 +28,7 @@ Follow these steps to run the project locally:
 ## 📸 Screenshots & Demo
 
 ### 🌐 Live Application  
-**Live Demo**: [https://smart-dashboard-system.netlify.app](https://smart-dashboard-system.netlify.app)
+**Live Demo**: [https://smart-dashboard-siddarth.surge.sh/](https://smart-dashboard-siddarth.surge.sh/)
 
 ---
 
