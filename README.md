@@ -2,7 +2,28 @@
 
 A responsive, feature-rich admin dashboard built with modern frontend technologies. Designed for real-time analytics, intuitive navigation, and seamless user experience across devices.
 
----
+---# ProU Frontend Assessment
+
+A responsive frontend application built with modern web technologies.
+
+## 🚀 Quick Setup
+
+Follow these steps to run the project locally:
+
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/Smart-Dashboard-System.git
+   cd your-repo-name
+
+   npm install
+
+   npm start
 
 ## 📸 Screenshots & Demo
 
