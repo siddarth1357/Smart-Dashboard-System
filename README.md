@@ -68,6 +68,4 @@ Follow these steps to run the project locally:
 - Mobile-first responsive design
 - Modular component architecture
 
----
 
-## 📁 Project Structure
